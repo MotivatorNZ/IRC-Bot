@@ -99,9 +99,9 @@ The actual bot
 """
 
 class Bot(Component):
-    def init(self, nick="fluffybot", command_char="!",
-             owners=["astonex", "softkitty"], password_file="password",
-             host_file="host", host="irc.freenode.net", port="6667", channel="main"):
+    def init(self, nick="Botivator", command_char="!",
+             owners=["Motivator", "MotivatorAFK"], password_file="password",
+             host_file="host", host="irc.freenode.net", port="6667", channel="##arctantest"):
 
         self.host = host
         self.port = int(port)
