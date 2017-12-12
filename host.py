@@ -1,1 +1,1 @@
-irc.snoonet.org
+user/Motivator
