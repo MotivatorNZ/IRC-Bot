@@ -100,7 +100,7 @@ The actual bot
 
 class Bot(Component):
     def init(self, nick="Botivator", command_char="!",
-             owners=["Motivator", "MotivatorAFK"], password_file="password",
+             owners=["Motivator", "MotivatorAFK"], password_file="password.py",
              host_file="host", host="irc.snoonet.org", port="6667", channel="##arctantest"):
 
         self.host = host
